@@ -140,7 +140,7 @@ def get_golden_age_video():
         "PewDiePie", "Markiplier", "Jacksepticeye",
         "VanossGaming", "DanTDM", "SkyDoesMinecraft",
         "CaptainSparklez", "TheSyndicateProject",
-        "Yogscast", "SeaNanners", "penguin0"
+        "Yogscast", "SeaNanners","penguinz0"
     ]
 
     golden_games = [

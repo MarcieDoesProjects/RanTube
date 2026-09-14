@@ -1,6 +1,9 @@
 import random
-import webbrowser
-import colorama
+import os 
+from dotenv import load_dotenv
+
+
+
 from logic import (
     get_random_music,
     get_random_video,
@@ -22,10 +25,12 @@ def sublements():
     return Bye_sub, Suprise_sub, Video_sub, Music_sub, Broken_sub
 
 Music_sub, Video_sub, Suprise_sub,  Bye_sub, Broken_sub = sublements()
-
+ 
+clear = lambda: os.system('cls')
+ 
 def show_menu():
-    print("=== PLACE ===")
-    print("your one stop all random stop")
+    print("=== RANTUBE ===")
+    print("your one stop all random shop")
     print(F"1. {Bye_sub}")
     print(F"2. {Suprise_sub}")
     print(F"3. {Video_sub}")
@@ -34,11 +39,13 @@ def show_menu():
 
 
 def run_app():
-    print("""hello random person hehe
-RANTUBE - your random youtube chaos machine
-""")
+   
+    
+    
+    print("""hello random person hehe RANTUBE - your random youtube chaos machine """)
 
     while True:
+        
         show_menu()
         choice = input("> ").strip().lower()
 

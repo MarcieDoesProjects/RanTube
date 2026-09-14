@@ -1,7 +1,8 @@
 import requests
 import random
 import webbrowser
-from secretsUWU.env import API_KEY
+from dotenv import load_dotenv
+
 
 def open_video(query):
     
