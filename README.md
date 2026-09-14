@@ -1,2 +1,2 @@
 # RanTube
-Don't know what to listen too? don't know what to watch? let ran tube save your butt &lt;3
+rantube was something i thought up when i got kicked up off my old place i wanted a change i had just moved in back with my parent and at the time felt like i was at my lowest
