@@ -39,10 +39,11 @@ def show_menu():
 
 
 def run_app():
+    
+    print("before we begin please paste your YOUTUBE API into the secretsUWU.env file") 
    
-    
-    
-    print("""hello random person hehe RANTUBE - your random youtube chaos machine """)
+    print("""hello random person hehe RANTUBE - 
+          your random youtube chaos machine """)
 
     while True:
         
